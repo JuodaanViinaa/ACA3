@@ -1,0 +1,33 @@
+Poblaciones y muestras
+    Teorema central del límite
+    Aleatoriedad y representación
+    Tipos de muestreo
+    Inferencia
+
+De poblaciones y muestras se obtienen datos al medir variables.
+Variables
+    Dependiente e independiente
+    Continuas o discretas
+    Niveles de medición
+        Nominal
+        Ordinal
+        Intervalar
+        Razón
+        > Ejercicios para identificar niveles de medición
+
+Relaciones entre variables
+    Positivas, negativas, no lineales, sin relación
+    Representación gráfica de las relaciones
+
+Estadística descriptiva
+    Medidas de tendencia central
+        Moda, mediana, media
+            En qué niveles de medición se utiliza cada una
+    Medidas de dispersión
+        Varianza, desviación estándar, error estándar, puntajes z
+
+Estadística inferencial
+    Pruebas de hipótesis
+    Prueba Z
+    Correlación
+    Prueba T
