@@ -18,7 +18,7 @@
 \begin{document}
 {\scshape\bfseries \maketitle}
 
-La estadística inferencial permite generalizar los resultados de muestras hacia poblaciones con niveles razonables de confianza.
+La estadística inferencial permite generalizar los resultados de muestras hacia poblaciones con niveles razonables de confianza. Esto se realiza mediante pruebas de hipótesis.
 
 Una hipótesis experimental podría ser que la media $\bar{X}$ del grupo al cual se aplicó una intervención es distinta de la media $\mu$ de la población de la cual se obtuvo la muestra. Es decir,
 \begin{eqnarray*}
@@ -48,9 +48,77 @@ De acuerdo con el teorema podemos obtener muestras de una población y calcular 
 
 Si este fuera el caso, entonces la diferencia que encontramos entre la media $\bar{X}$ de la muestra tras el tratamiento y la media de la población $\mu$ sería solo debida al azar.
 
-El papel de la estadística inferencial es garantizar que no cometamos el error de atribuir a la variable independiente (el tratamiento) las diferencias debidas a un error de muestreo.
+El papel de la estadística inferencial es garantizar que no cometamos el error de atribuir a la variable independiente (el tratamiento) las diferencias debidas a un error de muestreo. ¿Concluimos que la relación encontrada en la muestra se cumpliría si evlauamos a toda la población, o concluimos que es una coincidencia debida al error?
 
+El procedimiento estadístico específico a usar dependerá del diseño experimental y la hipótesis, pero de modo general se puede utilizar estadística {\itshape paramétrica} y {\itshape no paramétrica}.
 
+La estadística paramétrica requiere que se cumplan ciertos supuestos dentro de los datos de la muestra:
+\begin{itemize}
+  \item La población de puntuaciones de la variable dependiente forma una distribución normal (o aproximadamente normal)
+  \item Las puntuaciones tienen nivel de medición de intervalos o de razón
+\end{itemize}
+
+La estadística paramétrica suele ser preferible, así que se utiliza a menos que haya flagrantes violaciones de los supuestos que tiene.
+
+De forma general los pasos para las pruebas de hipótesis son
+\begin{enumerate}
+  \item Establecer una hipótesis experimental
+  \item Diseñar y correr un experimento que permita probarla
+  \item Traducir la hipótesis experimental en una hipótesis estadística
+  \item Seleccionar y llevar a cabo el procedimiento estadístico correcto para probarla
+\end{enumerate}
+
+Las hipótesis generalmente dirán cosas similares a "a incrementos en X corresponden incrementos en Y", o "a incrementos en X corresponden disminuciones en Y", es decir, habrá una relación ordenada entre las variables, y esa relación tendrá una dirección positiva o negativa.
+
+Si la relación es positiva, esto significará que esperamos que la media de la muestra después del tratamiento esté a la {\slshape derecha} de la media poblacional. Si la hipótesis es correcta entonces esta media muestral caerá en un punto lo bastante alejado de la media poblacional para poder decir con razonables niveles de confianza que no pertenece a la misma distribución, sino que pertenece a una nueva distribución creada por la intervención.
+
+El punto de corte estándar en psicología es el percentil 95 de la distribución poblacional. Es decir, si la media de la muestra cae en la cola derecha de la distribución poblacional en un punto tan alejado de la media que menos del 5\% de las ocasiones en que se muestree esa distribución aparecerá un valor así de elevado, entonces tendremos suficiente certeza de que la intervención es eficaz y efectivamente desplaza los puntajes hacia la derecha.
+
+Si anticipamos una relación negativa, ocurre lo mismo pero hacia el lado izquierdo de la distribución. Si anticipamos que habrá un cambio, pero no sabemos en qué dirección, entonces el punto de corte de 5\% se repartirá entre las dos colas de la distribución, 2.5\% de cada lado. Esta es la diferencia entre pruebas de "una cola" y de "dos colas".
+
+% TODO: Colocar aquí un dibujo de una distribución normal señalando los puntos de 5% y 2.5%
+
+El experimento más simple es uno de una sola muestra en el cual comparamos la media de la muestra tras el tratamiento con la media de la población de origen.
+La idea detrás de este diseño es comparar dos niveles de la variable independiente: el nivel experimental con otro nivel ya conocido. Un nivel conocido suele ser el de la ausencia de manipulación. Por ejemplo, si se conoce la calificación media de una población de primaria y se quiere probar una interevención que busca incrementarla entonces se tienen ya los dos niveles de la variable independiente: presencia y ausencia.
+
+{\noindent\bfseries Ejemplo}
+
+Una población tiene una media de puntos de IQ de 100 y una desviación estándar de 15. Queremos probar la eficacia de un tratamiento que pretende incrementar la inteligencia media.
+
+Tomamos una muestra aleatoria de la población con tamaño de 36, le aplicamos el tratamiento, y después hacemos una medición de su IQ. El resultado es de
+\[
+  \bar{X} = 105
+.\]
+Concluimos entonces que, dado que la media de la muestra es más grande que la media de la población, el tratamiento funciona.
+
+Fin.
+
+\newpage
+
+Excepto que no funciona así. Puede haber implícito un error de muestreo, y el supuesto efecto del tratamiento podría deberse al azar. Para demostrar que verdaderamente existe un efecto es necesario determinar qué tan probable es encontrar un dato tan grande como 105 o mayor en una población con  media de 100. Si la probabilidad de encontrar un dato así de grande por azar es menor al 5\%, entonces podremos concluir con relativa certeza que el cambio se debió a la intervención y no al azar (aunque nunca tendremos total seguridad de ello, porque para estar totalmente seguros deberíamos aplicar el tratamiento a la población completa y el presupuesto no alcanza para tanto).
+
+Específicamente debemos comparar una  hipótesis nula $H_{0}$ en la cual la media de la nueva población (la población creada por nuestra intervención) es igual a la media de la población original, con una hipótesis alternativa $H_{a}$ en la cual la media de la nueva población es {\slshape distinta} de la media de la población original:
+\begin{eqnarray*}
+  H_{0}: & \mu = 100\\
+  H_{a}: & \mu \neq 100
+\end{eqnarray*}
+
+La hipótesis nula $H_{0}$ siempre corresponderá a la ausencia de efecto o de relación entre la variable independiente y la dependiente. Si esta hipótesis es cierta, entonces concluiríamos que la media de nuestra muestra es una de las tantas medias que serían obtenidas de muestrear a la población original y no aplicar ninguna intervención.
+
+Debe notarse que las hipótesis $H_{0}$ y $H_{a}$ componen todas las posibilidades. La media de la población con tratamiento $\mu$ puede ser igual a 100 o distinta de 100, y no hay más posibilidades. Lo mismo aplicará para cualquier prueba de hipótesis que realicemos: las hipótesis propuestas deben agotar el espacio de las posibilidades.
+
+Para este caso particular el procedimiento estadístico usado se conoce como prueba {\itshape z}. Este procedimiento consiste en calcular el puntaje {\itshape z} de la media de la muestra tras el tratamiento, y determinar la localización de esa media en la distribución de la población dada por el teorema central del límite.
+
+Este diseño requiere que la distribución de la variable dependiente sea aproximadamente normal y que la muestra haya sido seleccionada de forma aleatoria. Además, es indispensable conocer la media de la población y su desviación estándar, lo que por lo general no ocurrirá. Pero supongamos que sí por esta ocasión.
+
+Para hacer la comparación entre la media muestral y la media de la población suponemos una distribución formada por infinitas medias muestrales con tamaño de 36 (porque ese es el tamaño de la muestra). La media de esta distribución muestral estará muy cerca de la media verdadera de la población. Entonces, esta distribución muestral mostrará la frecuencia de todas las $\bar{X}$ que podrían encontrarse si se toma una muestra aleatoria de tamaño 36 de la población. Suponiendo que $H_{0}$ sea correcta, toda media distinta de 100 vendrá de error de muestreo de esta distribución.
+
+El siguiente paso será determinar el umbral de aceptación que se utilizará para la comparación, es decir, cuánto riesgo de equivocarnos estamos dispuestos a aceptar. En psicología el riesgo aceptable es del 5\% por convención, pero en otras áreas (como medicina) no se acepta más del 1\%. Este umbral se denomina $\alpha$:
+\[
+  \alpha = 0.05
+\]
+
+Una vez elegido el umbral $\alpha$, éste se debe localizar dentro de la distribución de medias muestrales.
 
 
 \end{document}
