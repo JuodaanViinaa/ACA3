@@ -20,17 +20,19 @@
 \begin{document}
 {\scshape\bfseries \maketitle}
 
+\section{Prueba de hipótesis}\label{pruebahipotesis}
+
 La estadística inferencial permite generalizar los resultados de muestras hacia poblaciones con niveles razonables de confianza. Esto se realiza mediante pruebas de hipótesis.
 
 Una hipótesis experimental podría ser que la media $\bar{X}$ del grupo al cual se aplicó una intervención es distinta de la media $\mu$ de la población de la cual se obtuvo la muestra. Es decir,
 \begin{eqnarray*}
-    \bar{X} &<& \mu\\
-            &\mbox{o}&\\
-    \bar{X} &>& \mu,
+  \bar{X} &<& \mu\\
+          &\mbox{o}&\\
+  \bar{X} &>& \mu,
 \end{eqnarray*}
 o de forma más general:
 \[
-    \bar{X} \neq \mu
+  \bar{X} \neq \mu
 .\]
 
 Suponemos que la muestra tenía originalmente la misma media que la población, y que la aplicación de nuestra intervención desplazó su media en una cierta dirección. En cierto modo, suponemos que nuestra intervención tiene el efecto de crear una segunda población con una media distinta de la población original.
@@ -82,31 +84,37 @@ Si anticipamos una relación negativa, ocurre lo mismo pero hacia el lado izquie
   \pgfmathparse{1/(#2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#2^2))}%
 }
 
-\begin{tikzpicture}
-  \begin{axis}[
-    no markers, domain=-5:5, samples=100,
-    axis lines*=left, xlabel=$x$, ylabel=$\bar{X}$,
-    every axis y label/.style={at=(current axis.above origin),anchor=south},
-    every axis x label/.style={at=(current axis.right of origin),anchor=west},
-    height=5cm, width=12cm,
-    xtick={0}, ytick=\empty,
-    enlargelimits=false, clip=false, axis on top,
-    grid = major
-    ]
-    \addplot [fill=cyan!20, draw=none, domain=2.5:4] {gauss(0,1)} \closedcycle;
-    \addplot [fill=cyan!20, draw=none, domain=-2.5:-4] {gauss(0,1)} \closedcycle;
-    \addplot [very thick,cyan!50!black] {gauss(0,1)};
-    \draw (axis cs:2.5,-0.1) node [fill=white] {$5\%$} -- (axis cs: 2.5, 0.02);
-    \draw (axis cs:2.8,0.1) node [fill=white] {$2{.}5\%$} -- (axis cs: 2.8, 0);
-    \draw (axis cs:-2.5,-0.1) node [fill=white] {$-5\%$} -- (axis cs: -2.5, 0.02);
-    \draw (axis cs:-2.8,0.1) node [fill=white] {$-2{.}5\%$} -- (axis cs: -2.8, 0);
-  \end{axis}
-\end{tikzpicture}
+\begin{figure}[!ht]
+  \begin{center}
+    \begin{tikzpicture}
+      \begin{axis}[
+        no markers, domain=-5:5, samples=100,
+        axis lines*=left, xlabel=$x$, ylabel=$\bar{X}$,
+        every axis y label/.style={at=(current axis.above origin),anchor=south},
+        every axis x label/.style={at=(current axis.right of origin),anchor=west},
+        height=5cm, width=12cm,
+        xtick={0}, ytick=\empty,
+        enlargelimits=false, clip=false, axis on top,
+        grid = major
+        ]
+        \addplot [fill=cyan!20, draw=none, domain=2.5:4] {gauss(0,1)} \closedcycle;
+        \addplot [fill=cyan!20, draw=none, domain=-2.5:-4] {gauss(0,1)} \closedcycle;
+        \addplot [very thick,cyan!50!black] {gauss(0,1)};
+        \draw (axis cs:2.5,-0.1) node [fill=white] {$5\%$} -- (axis cs: 2.5, 0.02);
+        \draw (axis cs:2.8,0.1) node [fill=white] {$2{.}5\%$} -- (axis cs: 2.8, 0);
+        \draw (axis cs:-2.5,-0.1) node [fill=white] {$5\%$} -- (axis cs: -2.5, 0.02);
+        \draw (axis cs:-2.8,0.1) node [fill=white] {$2{.}5\%$} -- (axis cs: -2.8, 0);
+      \end{axis}
+    \end{tikzpicture}
+  \end{center}
+\end{figure}
+
+\section{Prueba {\itshape z}}\label{pruebaz}
 
 El experimento más simple es uno de una sola muestra en el cual comparamos la media de la muestra tras el tratamiento con la media de la población de origen.
 La idea detrás de este diseño es comparar dos niveles de la variable independiente: el nivel experimental con otro nivel ya conocido. Un nivel conocido suele ser el de la ausencia de manipulación. Por ejemplo, si se conoce la calificación media de una población de primaria y se quiere probar una intervención que busca incrementarla entonces se tienen ya los dos niveles de la variable independiente: presencia y ausencia.
 
-{\noindent\bfseries Ejemplo}
+{\noindent\scshape\bfseries Ejemplo}
 
 Una población tiene una media de puntos de IQ de 100 y una desviación estándar de 15. Queremos probar la eficacia de un tratamiento que pretende incrementar la inteligencia media.
 
@@ -134,11 +142,11 @@ Debe notarse que las hipótesis $H_{0}$ y $H_{a}$ componen todas las posibilidad
 
 Para este caso particular el procedimiento estadístico usado se conoce como prueba {\itshape z}. Este procedimiento consiste en calcular el puntaje {\itshape z} de la media de la muestra tras el tratamiento, y después determinar la localización de esa media en la distribución de la población dada por el teorema central del límite. Recordemos que el puntaje z de un dato indica cuánto éste se desvía de la media de su población o qué tan atípico es con respecto a ella, y se calcula restándole la media y dividiendo el resultado entre la desviación estándar:
 \[
-z = \frac{
-  X - \bar{X}
-}{
-  S_{X}
-}
+  z = \frac{
+    X - \bar{X}
+  }{
+    S_{X}
+  }
 .\]
 
 Este diseño requiere que la distribución de la variable dependiente sea aproximadamente normal y que la muestra haya sido seleccionada de forma aleatoria. Además, es indispensable conocer la media de la población y su desviación estándar, lo que por lo general no ocurrirá. Pero supongamos que sí por esta ocasión.
@@ -178,11 +186,11 @@ La localización del umbral $\alpha$ dentro de la distribución está dada por t
 
 Lo único que resta es convertir el valor de la media de la muestra, 105, en puntaje $z$ y compararlo con $z_{crit}$. La fórmula para computar el puntaje $z$ de los datos ($z_{obt}$) es:
 \[
-z_{obt} = \frac{
-  \bar{X} - \mu
-}{
-  \sigma_{\bar{X}}
-}
+  z_{obt} = \frac{
+    \bar{X} - \mu
+  }{
+    \sigma_{\bar{X}}
+  }
 \]
 donde
 \[
@@ -212,46 +220,314 @@ Calculamos primero el error estándar de la media. N es el tamaño de la muestra
 \]
 Después computamos $z_{obt}$. $\mu$ será la media de la población, $\bar{X}$ se obtiene de la muestra, y $\sigma_{\bar{X}}$ es el error estándar que acabamos de calcular. Entonces:
 \[
-z_{obt} = \frac{
-  \bar{X} - \mu
-}{
-  \sigma_{\bar{X}}
-} = \frac{
-  105 - 100
-}{
-  2{.}5
-} = \frac{
-  +5
-}{
-  2{.}5
-} = +2{.}00
+  z_{obt} = \frac{
+    \bar{X} - \mu
+  }{
+    \sigma_{\bar{X}}
+  } = \frac{
+    105 - 100
+  }{
+    2{.}5
+  } = \frac{
+    +5
+  }{
+    2{.}5
+  } = +2{.}00
 \]
 Nuestro $z_{obt}$ es +2.00. Para interpretar lo que esto significa es necesario compararlo con $z_{crit}$.
 
 El valor de $z_{crit}$ era de $\pm 1{.}96$. Dado que el valor de +2.00 es más grande sabemos que la media de nuestra muestra se encuentra más allá del umbral de $\alpha = 0{.}025$:
 
-\begin{tikzpicture}
-  \begin{axis}[
-    no markers, domain=-5:5, samples=100,
-    axis lines*=left, xlabel=$x$, ylabel=$\bar{X}$,
-    every axis y label/.style={at=(current axis.above origin),anchor=south},
-    every axis x label/.style={at=(current axis.right of origin),anchor=west},
-    height=5cm, width=12cm,
-    xtick={0}, ytick=\empty,
-    enlargelimits=false, clip=false, axis on top,
-    grid = major
-    ]
-    \addplot [fill=cyan!20, draw=none, domain=2.5:4] {gauss(0,1)} \closedcycle;
-    \addplot [fill=cyan!20, draw=none, domain=-2.5:-4] {gauss(0,1)} \closedcycle;
-    \addplot [very thick,cyan!50!black] {gauss(0,1)};
-    \draw (axis cs:2.7,-0.1) node [fill=white] {$z_{crit} = 1{.}96$} -- (axis cs: 2.7, 0.02);
-    \draw (axis cs:2.8,0.1) node [fill=white] {$z_{obt} = 2{.}00$} -- (axis cs: 2.8, 0);
-  \end{axis}
-\end{tikzpicture}
+\begin{figure}[!ht]
+  \begin{center}
+    \begin{tikzpicture}
+      \begin{axis}[
+        no markers, domain=-5:5, samples=100,
+        axis lines*=left, xlabel=$x$, ylabel=$\bar{X}$,
+        every axis y label/.style={at=(current axis.above origin),anchor=south},
+        every axis x label/.style={at=(current axis.right of origin),anchor=west},
+        height=5cm, width=12cm,
+        xtick={0}, ytick=\empty,
+        enlargelimits=false, clip=false, axis on top,
+        grid = major
+        ]
+        \addplot [fill=cyan!20, draw=none, domain=2.7:4] {gauss(0,1)} \closedcycle;
+        \addplot [very thick,cyan!50!black] {gauss(0,1)};
+        \draw (axis cs:2.7,-0.1) node [fill=white] {$z_{crit} = 1{.}96$} -- (axis cs: 2.7, 0.02);
+        \draw (axis cs:2.8,0.1) node [fill=white, inner sep=1pt] {$z_{obt} = 2{.}00$} -- (axis cs: 2.8, 0);
+      \end{axis}
+    \end{tikzpicture}
+  \end{center}
+\end{figure}
 
 Esto indica que podemos {\slshape rechazar} la hipótesis nula $H_{0}$ a favor de la hipótesis alternativa $H_{a}$, es decir, que podemos concluir con un nivel razonable de confianza que nuestra muestra con media de $\bar{X} = 105$ difícilmente podría haber venido de una población con una media de $\mu = 100$, y que lo más probable es que venga de una población distinta, probablemente la población ``creada'' por nuestra intervención.
 
-Dicho de otra forma, decimos que nuestros resultados son {\slshape significativos}. Significativo no quiere decir {\slshape importante}, solo que difícilmente ocurrirían si no existiese una relación en la población. Es importante notar que tampoco hemos demostrado que nuestra intervención funciona, sino solamente que una muestra como la que encontramos sería improbable si la intervención no funcionase, pero esto aun es una posibilidad. Y tampoco demostramos que es nuestra variable independiente lo que ocasionó el cambio. Esto aun pudo deberse a factores fuera de nuestro control experimental. Por ello es importante replicar los estudios en ciencia.
+Dicho de otra forma, decimos que nuestros resultados son {\slshape significativos}. Significativo no quiere decir {\slshape importante}, solo que difícilmente ocurrirían si no existiese una relación en la población. Es importante notar que no hemos demostrado que nuestra intervención funciona, sino solamente que una muestra como la que encontramos sería improbable si la intervención no funcionase, pero esto aun es una posibilidad. Y tampoco demostramos que es nuestra variable independiente lo que ocasionó el cambio. Esto aun pudo deberse a factores fuera de nuestro control experimental. Por ello es importante replicar los estudios en ciencia y mantener riguroso control experimental.
+
+\section{Correlaciones}\label{correlaciones}
+
+Un modo distinto de probar la existencia de relaciones en las variables son los coeficientes de correlación. Éstos nos permiten resumir de modo eficiente la forma en que los datos se organizan los unos con respecto a los otros. En un solo número nos indican tres tipos distintos de relaciones:
+
+\begin{enumerate}
+  \item Relaciones positivas: cuando el valor de la variable $X$ incrementa en una unidad, el valor de $Y$ incrementa también en una cantidad relativamente constante.
+  \item Negativas: cuando el valor de $X$ incrementa en una unidad, el valor de $Y$ disminuye en una cantidad relativamente constante.
+  \item Sin relación: el valor de $X$ no permite predecir el valor de $Y$ de manera confiable.
+\end{enumerate}
+
+Los coeficientes de correlación van de -1 a +1. +1 indica una relación perfecta positiva:
+
+\begin{figure}[!ht]
+  \begin{center}
+    \begin{tikzpicture}[scale=0.9]
+      \begin{axis}[%
+        scatter/classes={%
+        a={mark=o,draw=black}}]
+        \addplot[scatter,only marks,%
+          scatter src=explicit symbolic]%
+          table[meta=label] {
+            x  y  label
+            1  2  a
+            2  4  a
+            3  6  a
+            4  8  a
+            5  10 a
+            6  12 a
+            7  14 a
+            8  16 a
+            9  18 a
+            10 20 a
+            11 22 a
+            12 24 a
+          };
+      \end{axis}
+    \end{tikzpicture}
+  \end{center}
+\end{figure}
+
+-1 indica una relación perfecta negativa:
+
+\begin{figure}[!ht]
+  \begin{center}
+    \begin{tikzpicture}[scale=0.9]
+      \begin{axis}[%
+        scatter/classes={%
+        a={mark=o,draw=black}}]
+        \addplot[scatter,only marks,%
+          scatter src=explicit symbolic]%
+          table[meta=label] {
+            x  y  label
+            12 2  a
+            11 4  a
+            10 6  a
+            9  8  a
+            8  10 a
+            7  12 a
+            6  14 a
+            5  16 a
+            4  18 a
+            3  20 a
+            2  22 a
+            1  24 a
+          };
+      \end{axis}
+    \end{tikzpicture}
+  \end{center}
+\end{figure}
+
+0 indica una falta completa de relación:
+
+\begin{figure}[!ht]
+  \begin{center}
+    \begin{tikzpicture}[scale=0.95]
+      \begin{axis}[%
+        scatter/classes={%
+        a={mark=o,draw=black}}]
+        \addplot[scatter,only marks,%
+          scatter src=explicit symbolic]%
+          table[meta=label] {
+            x  y  label
+            12 8  a
+            11 9  a
+            10 3  a
+            9  21 a
+            8  2  a
+            7  8  a
+            6  12 a
+            5  22 a
+            4  9  a
+            3  17 a
+            2  12 a
+            1  1  a
+          };
+      \end{axis}
+    \end{tikzpicture}
+  \end{center}
+\end{figure}
+
+Aunque generalmente no encontraremos +1, -1 ni 0. Los datos suelen tener relaciones más imperfectas y difíciles de interpretar. Además, existirán variables con relaciones no lineales que serán más difíciles de representar mediante correlaciones.
+
+En estudios correlacionales, a diferencia de otros estudios, no se analizan medidas de tendencia central, sino conjuntos completos de datos. Por ello la mejor manera de representar las relaciones entre variables en estudios de este tipo son los diagramas de dispersión (como los de arriba). A cada dato de la variable $X$ siempre debe corresponderle un dato de la variable $Y$, y generalmente vendrán del mismo caso o sujeto.
+
+Este tipo de estudio no permite establecer causalidad entre las variables. Esto puede hacerse solo mediante la revisión teórica.
+
+Existen distintos coeficientes de correlación que se pueden utilizar dependiendo del tipo de dato que se quiera relacionar, pero el coeficiente más común es el de Pearson, llamado {\slshape Coeficiente de Correlación Producto-Momento de Pearson}. El símbolo de este coeficiente es $r$.
+
+$r$ compara cuán consistentemente cada valor de $X$ va acompañado de un valor de $Y$. Para hacer la comparación cada valor de $X$ y $Y$ se transforma en un puntaje $z$ (nombrados $z_X$ y $z_Y$), y después determinando la cantidad media de correspondencia entre todos los pares. La fórmula del coeficiente es:
+\[
+  r = \frac{
+    \sum(z_X z_Y)
+  }{
+    N
+  }
+\]
+Se multiplica cada $z_X$ por su par $z_Y$, se suman todos los productos, y el resultado se divide entre N. Una manera desarrollada de la fórmula es esta:
+\[
+  r = \frac{
+    N(\sum XY) - (\sum X)(\sum Y)
+  }{
+    \sqrt{\left[N\left(\sum X^{2}\right) - \left(\sum X\right)^{2}\right] \left[N\left(\sum Y^{2}\right) - \left(\sum Y\right)^{2}\right]}
+  }
+\]
+
+Este monstruo se deriva de reemplazar $z_X$ y $z_Y$ con sus fórmulas, y en cada una de ellas reemplazar los símbolos de la media y las desviación estándar con sus fórmulas. Después todo se simplifica y este es el resultado.
+
+{\noindent\scshape\bfseries Ejemplo}
+
+Una manzana al día mantiene alejado al doctor. Lo mismo que el ajo con los vampiros. Un buen día le preguntamos a una población cuántas manzanas comen y cuántas veces han ido al doctor en el último año. Obtenemos estos datos:
+\begin{figure}[!ht]
+  \begin{center}
+    \begin{tabular}{c|c|c}
+      Participante&Manzanas&Visitas al doc\\
+      1&0&8\\
+      2&0&7\\
+      3&1&7\\
+      4&1&6\\
+      5&1&5\\
+      6&2&4\\
+      7&2&4\\
+      8&3&4\\
+      9&3&2\\
+      10&4&0
+    \end{tabular}
+  \end{center}
+\end{figure}
+
+Graficada, esta relación se ve así:
+
+\begin{figure}[!ht]
+  \begin{center}
+    \begin{tikzpicture}[scale=0.95]
+      \begin{axis}[%
+        scatter/classes={%
+        a={mark=o,draw=black}}]
+        \addplot[scatter,only marks,%
+          scatter src=explicit symbolic]%
+          table[meta=label] {
+            x  y  label
+            0  8  a
+            0  7  a
+            1  7  a
+            1  6  a
+            1  5  a
+            2  4  a
+            2  4  a
+            3  4  a
+            3  2  a
+            4  1  a
+          };
+      \end{axis}
+    \end{tikzpicture}
+  \end{center}
+\end{figure}
+
+A simple vista parece que las manzanas son buenas como repelente de doctores. Pero para comunicar esto a alguien tenemos que darle los datos completos o mostrarle la gráfica. Para comunicar de modo más eficiente obtenemos el coeficiente de correlación. Recordando que la fórmula nos pide $X$, $X^{2}$, $Y$, $Y^{2}$, y $XY$, y las sumas de cada una, creamos esta tabla:
+
+\begin{tabular}{c|c|c|c|c|c}
+  Participante&$X$ &$X^{2}$ &$Y$ &$Y^{2}$ &$XY$ \\
+  \hline
+  1&0&0&8&64&0\\
+  2&0&0&7&49&0\\
+  3&1&1&7&49&7\\
+  4&1&1&6&36&6\\
+  5&1&1&5&25&5\\
+  6&2&4&4&16&8\\
+  7&2&4&4&16&8\\
+  8&3&9&4&16&12\\
+  9&3&9&2&4&6\\
+  10&4&16&0&0&0\\
+  \hline
+  N = 10&$\Sigma X = 17$&$\Sigma X^{2} = 45$ &$\Sigma Y = 47$ &$\Sigma Y^{2} = 275$ &$\Sigma XY = 52$\\
+        &$(\Sigma X)^{2} = 289$ &&$(\Sigma Y)^{2} = 2209$ &&
+\end{tabular}
+
+Sustituyendo en la fórmula obtenemos:
+
+\begin{eqnarray*}
+  r&=&\frac{
+    N(\sum XY) - (\sum X)(\sum Y)
+  }{
+    \sqrt{\left[N\left(\sum X^{2}\right) - \left(\sum X\right)^{2}\right] \left[N\left(\sum Y^{2}\right) - \left(\sum Y\right)^{2}\right]}
+  }\\[3mm]
+  &=&\frac{
+    10(52) - (17)(47)
+  }{
+    \sqrt{
+      [10(45) - 289][10(275) - 2209]
+    }
+  }\\[3mm]
+  &=&\frac{
+    520 - 799
+  }{
+    \sqrt{
+      [161][541]
+    }
+  }\\[3mm]
+  &=&\frac{
+    -279
+  }{
+    295{.}129
+  }\\[3mm]
+  r&=&-{.}95
+\end{eqnarray*}
+
+Esto indica que el coeficiente de correlación entre la cantidad de manzanas comidas y las visitas al doctor es de $r = -0.95$, una fuerte relación negativa, lo que indica que podríamos predecir confiablemente las visitas al doctor de una persona conociendo las manzanas que come, o viceversa.
+
+Sin embargo, debe tenerse en cuenta que esta relación fue encontrada en la {\slshape muestra} a la que tenemos acceso. En última instancia, queremos generalizar la relación a toda la población, lo que requiere la aplicación de un procedimiento de inferencia.
+
+Igual que la media de la población lleva la letra griega $\mu$, el coeficiente de correlación de una población se denomina con la letra griega ``rho'', $\rho$.
+
+Al igual que en el caso de $r$, la relación encontrada en la muestra mediante el coeficiente de correlación podría deberse a un error de muestreo.
+
+El primer paso para probar la significancia de una correlación es revisar que se cumplan tres supuestos:
+\begin{enumerate}
+  \item Hay una muestra aleatoria de pares de datos $X$ y $Y$, y ambas variables son de nivel intervalar o de razón.
+  \item Ambas variables provienen de distribuciones aproximadamente normales. Aunque si la $N$ es mayor a 25 este supuesto pierde importancia.
+  \item La hipótesis nula es que no hay correlación en la población.
+\end{enumerate}
+
+Igual que en el caso de $z$, establecemos nuestras hipótesis estadísticas. La hipótesis nula es que no existe relación entre las variables, es decir,
+\[
+H_{0}: r = 0
+.\]
+La hipótesis alternativa será que existe una relación. Esta puede ser positiva o negativa. Si desconocemos su dirección, podríamos decir simplemente que hay una relación entre las variables:
+\[
+H_{a}: r \neq 0
+.\]
+
+El teorema central del límite aplica también en este caso, pero de un modo ligeramente distinto. Suponemos que existe una población de sujetos en los cuales podemos medir nuestras dos variables de interés. En esta población podemos tomar una cantidad infinita de muestras, y para cada muestra calcular el coeficiente de correlación $r$. La distribución de coeficientes muestrales $r$ tomados de infinitas muestras tiende a tomar la forma de una distribución normal. De este modo, nuestra labor estadística consiste en determinar, de entre todas las $r$ posibles que podemos obtener al muestrear una población en la cual no existe correlación entre las variables, si la $r$ que de hecho obtuvimos es lo bastante atípica para considerar que proviene de una población en la cual sí existe la relación.
+
+Dicho de otro modo, suponemos una distribución normal de valores de $r$ con media en 0. La media es cero porque suponemos que en la población no existe la relación, así que ese será el valor ``real'' del parámetro. Al tomar muestras de esta distribución obtendremos, ocasionalmente y por azar, valores altos y bajos de $r$ a pesar de que la media real sea de 0. Debemos determinar cuán atípico es el valor de $r$ que obtenemos de la muestra en comparación con esta distribución teórica. Si ese valor ocurre menos del 5\% de las ocasiones (o el umbral que hayamos elegido como punto de corte), entonces concluimos que sí existe una relación en la población.
+
+Afortunadamente el valor medio de esta distribución siempre es de 0, por lo que la $r$ obtenida de la muestra nos comunica directamente su posición en esta distribución teórica. Lo único que es necesario saber es el tamaño de $N$, debido a que la distribución tiene una forma levemente distinta para cada tamaño de muestra. Para este propósito, igual que con la prueba $z$, existen tablas que indican la posición de cada valor de $r$ en la distribución con base en los {\slshape grados de libertad}---una medida obtenida de la cantidad de datos de la muestra, equivalente a $N - 2$---(Figura 2).
+
+\begin{figure}[!ht]
+  \begin{center}
+    \includegraphics[scale=0.3]{rtable.png}
+    \caption{Tabla de valores de $r$ en función de los grados de libertad}
+  \end{center}
+\end{figure}
+
+En este caso tenemos 8 grados de libertad debido a que el tamaño de la  $N$ es de 10. Si seguimos en la tabla el renglón de 8 grados de libertad y buscamos el valor más aproximado al resultado de $r = -0.95$ obtenido (pero sin pasarnos de él), encontraremos que el resultado es significativo al nivel de 0.01 para una prueba de dos colas, es decir, que en una población en la cual no existiese ninguna relación entre las manzanas y las visitas al médico encontraríamos un coeficiente de correlación de -0.95 en menos de 1 de cada 100 muestras con $N = 10$ tomadas. Un nivel muy razonable de confianza.
 
 
 \end{document}
