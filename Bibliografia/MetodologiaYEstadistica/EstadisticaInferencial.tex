@@ -507,11 +507,11 @@ El primer paso para probar la significancia de una correlación es revisar que s
 
 Igual que en el caso de $z$, establecemos nuestras hipótesis estadísticas. La hipótesis nula es que no existe relación entre las variables, es decir,
 \[
-H_{0}: r = 0
+  H_{0}: r = 0
 .\]
 La hipótesis alternativa será que existe una relación. Esta puede ser positiva o negativa. Si desconocemos su dirección, podríamos decir simplemente que hay una relación entre las variables:
 \[
-H_{a}: r \neq 0
+  H_{a}: r \neq 0
 .\]
 
 El teorema central del límite aplica también en este caso, pero de un modo ligeramente distinto. Suponemos que existe una población de sujetos en los cuales podemos medir nuestras dos variables de interés. En esta población podemos tomar una cantidad infinita de muestras, y para cada muestra calcular el coeficiente de correlación $r$. La distribución de coeficientes muestrales $r$ tomados de infinitas muestras tiende a tomar la forma de una distribución normal. De este modo, nuestra labor estadística consiste en determinar, de entre todas las $r$ posibles que podemos obtener al muestrear una población en la cual no existe correlación entre las variables, si la $r$ que de hecho obtuvimos es lo bastante atípica para considerar que proviene de una población en la cual sí existe la relación.
@@ -535,10 +535,168 @@ Además de el cambio coordinado entre dos variables es posible determinar el cam
 
 En un experimento con dos muestras medimos las puntuaciones de los sujetos bajo dos condiciones. La condición 1 produce una ${\bar{X}}$ que representa a $\mu_{1}$, la $\mu$ que encontraríamos si se le aplicara la manipulación a toda la población. Del mismo modo, la condición 2 produce una $\mu_{2}$. Un resultado posible sería el siguiente:
 
-%TODO: agregar gráfica con dos distribuciones normales separadas, señaladas como \mu1 y \mu2
+\begin{tikzpicture}
+  \begin{axis}[
+    no markers, domain=-4:6, samples=100,
+    axis lines*=left,
+    height=5cm, width=12cm,
+    xtick=\empty, ytick=\empty,
+    enlargelimits=false, clip=false, axis on top,
+    grid = major
+    ]
+    \addplot [very thick,cyan!50!black] {gauss(0,1)};
+    \addplot [very thick,cyan!50!black] {gauss(3,1)};
+    \draw [very thick, white!20!black] (0, 0) -- (0, 0.4) node [anchor=south] {$\mu_{1}$};
+    \draw [very thick, white!20!black] (3, 0) -- (3, 0.4) node [anchor=south] {$\mu_{2}$};
+  \end{axis}
+\end{tikzpicture}
 
-Idealmente podríamos concluir que, si las medias poblacionales representadas por las $\bar{X}$ son distintas, entonces la manipulación tiene un efecto. Pero, de nuevo, la realidad no es tan bella. Existe también aquí la posibilidad de un error de muestreo que genere la diferencia: quizá desde el comienzo, antes de la manipulación, las muestras ya tenían medias distintas por azar a pesar de estar representando a una misma población. Siendo así, es necesario demostrar que la diferencia encontrada entre las medias de las muestras es lo bastante grande para poder afirmar con niveles razonables de seguridad que no pertenecen a una misma población. Ese es el papel de la prueba T.
+Idealmente podríamos concluir que, si las medias poblacionales $\mu$ representadas por las medias muestrales $\bar{X}$ son distintas, entonces la manipulación tiene un efecto. Pero, de nuevo, la realidad no es tan bella. Existe también aquí la posibilidad de un error de muestreo que genere la diferencia: quizá desde el comienzo, antes de la manipulación, las muestras ya tenían medias distintas por azar a pesar de estar representando a una misma población. Siendo así, es necesario demostrar que la diferencia encontrada entre las medias de las muestras es lo bastante grande para poder afirmar con niveles razonables de seguridad que no pertenecen a una misma población. Ese es el papel de la prueba T.
 
+El principio estadístico es similar al principio de la prueba $z$: es necesario determinar la posición de un resultado dentro de una distribución muestral. Sin embargo, debido a que estamos determinando si una diferencia entre medias es {\slshape significativa}, es necesario que la distribución muestral esté también en términos de diferencias entre medias.
+
+En esta ocasión suponemos una cantidad infinita de {\slshape pares} de muestras tomados de una población. Para cada par calculamos la media de cada uno y los restamos entre sí. El proceso se repite infinitamente y las diferencias entre las medias de las muestras se grafican en un histograma de frecuencias. Al graficar nos daremos cuenta de que las diferencias entre infinitas medias tomadas de una misma población tienden a formar una distribución normal, es decir, que también son descritas por el teorema central del límite (figura 3).
+
+\begin{figure}[!ht]
+  \begin{center}
+    \includegraphics[scale=0.5]{diferenciaMedias.png}
+  \end{center}
+\end{figure}
+
+La única diferencia con el histograma que ya conocemos es que en esta ocasión, debido a que estamos calculando diferencias entre medias de una misma población, los datos se agruparán alrededor del valor de 0. Esto se debe a que frecuentemente se muestrearán valores cercanos a la media real de la población, y restarlos entre sí generalmente resultará en números pequeños. Solo en las pocas ocasiones en que se muestreen valores muy alejados de la media poblacional se encontrarán valores altos para la diferencia entre las medias.
+
+La prueba T tiene como función determinar en qué posición de la distribución de {\slshape diferencias de medias} se encuentra el valor que encontramos en un estudio dado. Si ese valor se encuentra lo bastante lejos de la distribución como para ser muestreado en menos del 5\% de las ocasiones (o lo que determinemos con el umbral $\alpha$), entonces determinaremos que existen diferencias entre nuestros grupos, pues será improbable que un valor elevado provenga de una distribución de {\slshape diferencias de medias} centrada en 0.
+
+La prueba T tiene dos variantes:
+\begin{itemize}
+  \item Para muestras independientes: se usa si los sujetos de cada grupo son muestreados sin tomar en cuenta a los del otro grupo.
+  \item Para muestras relacionadas: se usa si los datos de ambos grupos provienen de los mismos sujetos pasando por condiciones distintas, o si los sujetos fueron seleccionados de manera propositiva mediante pareo.
+\end{itemize}
+
+La prueba T para muestras independientes tiene como requisitos:
+\begin{enumerate}
+  \item Los puntajes tienen nivel de intervalo o razón
+  \item Las poblaciones tienen distribuciones aproximadamente normales
+  \item Las poblaciones tienen varianzas homogéneas, es decir, que si computamos la varianza de cada población por separado obtendríamos el mismo resultado.
+  \item La cantidad $n$ de casos es similar
+\end{enumerate}
+
+Las hipótesis estadísticas en este caso están dichas en términos de las diferencias entre las medias de las poblaciones de las cuales vienen las muestras. Es decir, la hipótesis alternativa indicaría que la media poblacional $\mu_{1}$ es {\slshape distinta} de la media poblacional $\mu_{2}$:
+\[
+  H_{a}: \mu_{1} \neq \mu_{2}
+,\]
+o en términos de su diferencia:
+\[
+  H_{a}: \mu_{1} - \mu_{2} \neq 0
+.\]
+La hipótesis nula diría que su diferencia sí es de cero:
+\begin{eqnarray*}
+  H_{0}: \mu_{1} = \mu_{2}\\
+  H_{0}: \mu_{1} - \mu_{2} = 0
+\end{eqnarray*}
+
+Las hipótesis no tienen un valor específico para $\mu$, por lo que serán las mismas para cualquier estudio.
+
+La manera de contrastar las hipótesis es calculando el valor de $t$, un estadístico que indica la posición de la diferencia entre las medias dentro de la distribución de diferencias dada por el teorema central del límite.
+
+La fórmula del estadístico $t$ es:
+\[
+  t_{obt} = \frac{
+    (\bar{X}_{1} - \bar{X}_{2}) - (\mu_{1} - \mu_{2})
+  }{
+    s_{\bar{X}_{1} - \bar{X}_{2}}
+  }
+\]
+Se trata de una fórmula similar a la del puntaje $z$ debido a que su significado es similar: la posición del valor obtenido con respecto a una distribución normal. Se obtiene la diferencia entre {\slshape la diferencia entre medias muestrales} y {\slshape la diferencia entre medias poblacionales} (así es, una diferencia de diferencias), y el resultado se divide entre un error estándar. El valor $s_{\bar{X}_{1} - \bar{X}_{2}}$ se refiere al {\slshape error estándar de la diferencia}, es decir, qué tanto se alejan en promedio las diferencias entre medias muestreadas del valor central de la distribución. La forma de calcularlo es la siguiente:
+\[
+  s_{\bar{X}_{1} - \bar{X}_{2}} =\sqrt{
+    \left(s_{pool}^{2}\right)\left(\frac{1}{n_{1}} + \frac{1}{n_{2}}\right)
+  }
+.\]
+Finalmente, en esta última fórmula el valor $s_{pool}^{2}$ se refiere a la {\slshape varianza agrupada}, que es la media ponderada de varianzas. Específicamente, esto se refiere a la media de las varianzas de las dos poblaciones de las que provienen los datos, pero con un peso asignado en función de la cantidad de datos que tiene cada grupo usando los grados de libertad de cada muestra:
+\[
+  s_{pool}^{2} = \frac{
+    (n_{1} - 1)s_{1}^{2} + (n_{2} - 1)s_{2}^{2}
+  }{
+    (n_{1} - 1) + (n_{2} - 1)
+  }
+\]
+
+Así, la forma de calcular $t$ es:
+\begin{enumerate}
+  \item Obtener la varianza agrupada
+  \item Obtener el error estándar de las diferencias
+  \item Calcular el estadístico $t$
+\end{enumerate}
+
+El valor resultante de $t_{\mbox{\scriptsize obtenida}}$ se compara con una tabla de valores críticos y eso permite determinar la significancia de la prueba.
+
+{\noindent\scshape\bfseries Ejemplo}
+
+Se pretende determinar si acaso hay diferencias entre los perros border collie y los golden retriever en la capacidad de aprender y recordar nombres de objetos. Para ello se seleccionan perros de cada raza al azar y se les enseña, a lo largo de una semana, a traer 30 juguetes tras escuchar su nombre. Después de una semana se hace una prueba para determinar cuántos nombres recuerdan aun. Supongamos que se encontraron 17 perros collie y 15 retriever. En promedio los collie recordaron 23 comandos; y los retriever, 20. La varianza del grupo de collie es de 9, y la del grupo de retriever es de 7.5. Nuestra labor es determinar si los collie son mejores para recordar comandos con base en los datos de nuestra muestra.
+
+Como primer paso obtenemos la diferencia entre las medias de los grupos:
+\[
+  23 - 20 = 3
+,\]
+es decir, la diferencia en puntaje entre grupos es de 3.
+
+Primero estimamos la varianza agrupada. Recordamos que la fórmula es:
+\begin{eqnarray*}
+  s_{pool}^{2}&=&\frac{
+    (n_{1} - 1)s_{1}^{2} + (n_{2} - 1)s_{2}^{2}
+  }{
+    (n_{1} - 1) + (n_{2} - 1)
+  }\\[3mm]
+  &=& \frac{
+    (17 - 1) 9 + (15 - 1) 7{.}5
+  }{
+    (17 - 1) + (15 - 1)
+  }\\[3mm]
+  &=& \frac{
+    144 + 105
+  }{
+    30
+  }\\[3mm]
+  &=& \frac{
+    249
+  }{
+    30
+  }\\[3mm]
+  &=& 8{.}3
+\end{eqnarray*}
+Así estimamos que la varianza conjunta de la población de ambas razas de perros es de 8.3.
+
+Después utilizamos la varianza agrupada para calcular el error estándar de la diferencia:
+\begin{eqnarray*}
+  s_{\bar{X}_{1} - \bar{X}_{2}}&=&\sqrt{
+  \left(s_{pool}^{2}\right)\left(\frac{1}{n_{1}} + \frac{1}{n_{2}}\right)}\\[3mm]
+  &=& \sqrt{
+    8{.}3\left(\frac{1}{17} + \frac{1}{15}\right)
+  }\\[3mm]
+  &=& \sqrt{8{.}3(0{.}126)}\\[3mm]
+  &=& \sqrt{1{.}046}\\
+  &=& 1{.}023
+\end{eqnarray*}
+El error estándar de la diferencia es entonces de 1.023. Finalmente esto es utilizado para calcular el estadístico $t$:
+\begin{eqnarray*}
+  t_{\mbox{\scriptsize obtenida}}&=&\frac{
+    (\bar{X}_{1} - \bar{X}_{2}) - (\mu_{1} - \mu_{2})
+  }{
+    s_{\bar{X}_{1} - \bar{X}_{2}}
+  }\\[3mm]
+  &=&\frac{
+    (23 - 20) - 0
+  }{
+    1{.}023
+  }\\[3mm]
+  &=&\frac{
+    (+3{.}0) - 0
+  }{
+    1{.}023
+  }\\[3mm]
+  &=&+2{.}93
+\end{eqnarray*}
 
 
 \end{document}
