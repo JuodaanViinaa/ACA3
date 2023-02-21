@@ -52,7 +52,7 @@ De acuerdo con el teorema podemos obtener muestras de una población y calcular 
 
 Si este fuera el caso, entonces la diferencia que encontramos entre la media $\bar{X}$ de la muestra tras el tratamiento y la media de la población $\mu$ sería solo debida al azar.
 
-El papel de la estadística inferencial es garantizar que no cometamos el error de atribuir a la variable independiente (el tratamiento) las diferencias debidas a un error de muestreo. ¿Concluimos que la relación encontrada en la muestra se cumpliría si evlauamos a toda la población, o concluimos que es una coincidencia debida al error?
+El papel de la estadística inferencial es garantizar que no cometamos el error de atribuir a la variable independiente (el tratamiento) las diferencias debidas a un error de muestreo. ¿Concluimos que la relación encontrada en la muestra se cumpliría si evaluamos a toda la población, o concluimos que es una coincidencia debida al error?
 
 El procedimiento estadístico específico a usar dependerá del diseño experimental y la hipótesis, pero de modo general se puede utilizar estadística {\itshape paramétrica} y {\itshape no paramétrica}.
 
@@ -262,7 +262,7 @@ El valor de $z_{crit}$ era de $\pm 1{.}96$. Dado que el valor de +2.00 es más g
 
 Esto indica que podemos {\slshape rechazar} la hipótesis nula $H_{0}$ a favor de la hipótesis alternativa $H_{a}$, es decir, que podemos concluir con un nivel razonable de confianza que nuestra muestra con media de $\bar{X} = 105$ difícilmente podría haber venido de una población con una media de $\mu = 100$, y que lo más probable es que venga de una población distinta, probablemente la población ``creada'' por nuestra intervención.
 
-Dicho de otra forma, decimos que nuestros resultados son {\slshape significativos}. Significativo no quiere decir {\slshape importante}, solo que difícilmente ocurrirían si no existiese una relación en la población. Es importante notar que no hemos demostrado que nuestra intervención funciona, sino solamente que una muestra como la que encontramos sería improbable si la intervención no funcionase, pero esto aun es una posibilidad. Y tampoco demostramos que es nuestra variable independiente lo que ocasionó el cambio. Esto aun pudo deberse a factores fuera de nuestro control experimental. Por ello es importante replicar los estudios en ciencia y mantener riguroso control experimental.
+Dicho de otra forma, decimos que nuestros resultados son {\slshape significativos}. Significativo no quiere decir {\slshape importante}, solo que difícilmente ocurrirían si no existiese una relación en la población. Es importante notar que no hemos demostrado que nuestra intervención funciona, sino solamente que una muestra como la que encontramos sería improbable si la intervención no funcionase, pero esto aun es una posibilidad. Y tampoco demostramos que es nuestra variable independiente lo que ocasionó el cambio. Esto aun pudo deberse a factores fuera de nuestro control. Por ello es importante replicar los estudios en ciencia y mantener riguroso control experimental.
 
 \section{Correlaciones}\label{correlaciones}
 
@@ -697,6 +697,24 @@ El error estándar de la diferencia es entonces de 1.023. Finalmente esto es uti
   }\\[3mm]
   &=&+2{.}93
 \end{eqnarray*}
+
+El valor $t = +2{.}93$ nos indica la posición de la distribución de diferencias de medias en la cual se ubica nuestra diferencia medida de +3. Para interpretar este valor es necesario compararlo con una tabla de valores críticos de $t$. Es necesaria una tabla debido a que para cada cantidad de grados de libertad, el histograma de frecuencias de diferencias de medias tiene una forma ligeramente distinta, así que para distintos grados de libertad cada punto de $t$ estará en una localización ligeramente distinta.
+
+En este caso tenemos un tamaño de $N$ de 32, y la manera de calcular los grados de libertad para una prueba $t$ es:
+\[
+gl = N - 2
+\]
+debido a que se tienen dos grupos. Sustituyendo con los valores del ejemplo:
+\[
+gl = 32 -2 = 30
+\]
+\begin{figure}[!ht]
+  \begin{center}
+    \includegraphics[scale=0.5]{tablaT.png}
+  \end{center}
+\end{figure}
+
+Con un $\alpha = 0{.}05$ y una prueba de dos colas, el valor crítico de $t$ es de $\pm 2{.}042$. El valor obtenido está más allá de este punto, por lo que podemos concluir que la diferencia encontrada en la muestra es significativa, es decir, que difícilmente sería encontrada si acaso no existiese una relación entre la raza de perro y la capacidad para recordar comandos.
 
 
 \end{document}
