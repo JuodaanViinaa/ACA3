@@ -1,0 +1,30 @@
+Las prácticas entregadas a tiempo se evalúan sobre 10. Después, se resta 1 punto de la calificación por cada día de atraso.
+
+Ortografía y gramática: 1 punto.
+	Redacción clara, directa y entendible.
+	Uso de voz pasiva.
+	Oraciones completas.
+	Buena ortografía.
+
+Marco teórico: 3 puntos.
+	Revisión de materiales relevantes para el tema.
+	Coherencia en los argumentos, va de lo general a lo particular.
+	Síntesis más allá de la paráfrasis y enumeración.
+
+Formato APA: 2 puntos.
+	Tipo de letra.
+	Interlineado.
+	Títulos.
+	Citas y referencias.
+		Sangría francesa.
+		Citar todos los argumentos ajenos.
+
+Resultados: 2 puntos.
+	Presentación clara y concisa de los datos.
+	Análisis estadísticos correctos (cuando aplique).
+	Reporte de resultados apegado al formato APA.
+
+Discusión: 2 puntos.
+	Relación de los resultados con la literatura.
+	Descripción de las limitaciones del estudio.
+	Conclusión.
