@@ -1,9 +1,50 @@
-Muy buena práctica, camaradas.
+Muy buen reporte, camaradas.
 Dentro del pdf les dejé comentarios específicos, pero como comentarios generales puedo decirles esto:
+
 Gran trabajo para buscar información en fuentes distintas de las que yo les di.
 Hace falta establecer una clase de hilo conductor en el texto. Me refiero a que tienen muy buena información en el marco teórico, pero la describen de manera un poco inconexa. Sugiero que busquen maneras de contar su marco como si se tratase de una historia, comenzando de lo más general y llegando hasta lo más específico, como una clase de embudo.
 
 Hubo algunos errores menores de redacción por aquí y por allá, pero nada grave.
 
-La calificación de su práctica es de 9.
+La calificación de su práctica es de 8.6.
 Al final del semestre tomaré sus 4 calificaciones más altas y las promediaré, y el resultado será su calificación final.
+
+Pueden escribirme o hablar conmigo al final de la clase para cualquier comentario o aclaración.
+
+--------------------------------------------
+
+Aquí está el desglose de la calificación:
+Las prácticas entregadas a tiempo se evalúan sobre 10. Después, se resta 1 punto de la calificación por cada día de atraso.
+
+Ortografía y gramática: 0.8/1 punto.
+      Redacción clara, directa y entendible. ✓
+      Uso de voz pasiva. (Mayormente sí, salvo un desliz).
+      Oraciones completas. ✓
+      Buena ortografía. (Mayormente sí, salvo por acentos y algo más).
+
+Marco teórico: 1.7/2 puntos.
+      Revisión de materiales relevantes para el tema. ✓
+      Orden en los argumentos, va de lo general a lo particular. (Necesita un poco de trabajo)
+      Síntesis más allá de la paráfrasis y enumeración. ✓
+
+Método: 0.7/1 punto.
+      Perfecta claridad en la descripción del procedimiento.
+      Descripción de los materiales y sujetos. ✓
+
+Resultados: 1.6/2 puntos.
+      Presentación clara y concisa de los datos. ✓
+      Análisis estadísticos correctos (cuando aplique). ✓
+      Reporte de resultados apegado al formato APA. 
+
+Discusión: 2/2 puntos.
+      Relación de los resultados con lo esperado. ✓
+      Descripción de las limitaciones del estudio. ✓
+      Conclusión. ✓
+
+Formato APA: 1.8/2 puntos.
+      Tipo de letra. ✓
+      Interlineado. ✓
+      Títulos. ✓
+      Citas y referencias. 
+            Sangría francesa. ✓
+            Citar todos los argumentos ajenos. (Algunos argumentos sin citar)
