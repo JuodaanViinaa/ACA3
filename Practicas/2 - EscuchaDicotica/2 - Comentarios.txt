@@ -1,0 +1,44 @@
+Buena práctica, camaradas. Noto gran mejoría con respecto al primer reporte. Me llenan de orgullo.
+Les dejo aquí comentarios generales, y algunos más específicos dentro del documento.
+
+Su marco teórico me parece muy rico y va desde lo general hacia lo particular. Encontraron muchas fuentes muy pertinentes y eso está perfecto.
+Tengan mucho cuidado al redactar. Que todo el equipo lea el documento varias veces para identificar errores en redacción y ortografía.
+Recuerden utilizar la voz pasiva cuando escriban en ciencia. Es preferible decir "las personas", "los sujetos", "los seres humanos" o variaciones en lugar de "nosotros". Lo segundo está bien cuando hacemos divulgación, pero ese no es el caso aquí.
+También tengan cuidado con el uso de puntuación. Lo que noto es que tienden a sobreutilizar las comas: las utilizan en sustitución de puntos y seguido, o en momentos en los cuales no son gramaticalmente necesarias (pero que coinciden con pausas que se harían al hablar, por lo que entiendo de dónde parten).
+
+Su calificación es de 8.7.
+
+Aquí está el desglose de la calificación:
+
+Ortografía y gramática: 0.6/1 punto.
+      Redacción clara, directa y entendible. (Algunos problemas de redacción y puntuación)
+      Uso de voz pasiva. 
+      Oraciones completas. ✓
+      Buena ortografía. ✓
+
+Marco teórico: 2/2 puntos.
+      Revisión de materiales relevantes para el tema. ✓
+      Orden en los argumentos, va de lo general a lo particular. ✓
+      Síntesis más allá de la paráfrasis y enumeración. ✓
+
+Método: .6/1 punto.
+      Perfecta claridad en la descripción del procedimiento. ✓
+      Descripción de los materiales y sujetos. (Faltó mencionar que los sujetos debían tener audición normal, y que los tonos de voz de los experimentadores debían ser similares)
+
+Resultados: 2/2 puntos.
+      Presentación clara y concisa de los datos. ✓
+      Análisis estadísticos correctos (cuando aplique). (No aplica aquí)
+      Reporte de resultados apegado al formato APA. ✓
+
+Discusión: 2/2 puntos.
+      Relación de los resultados con lo esperado. ✓
+      Descripción de las limitaciones del estudio. ✓
+      Conclusión. ✓
+
+Formato APA: 1.5/2 puntos.
+      Tipo de letra. ✓
+      Interlineado. ✓
+      Títulos. ✓
+      Citas y referencias. 
+            Sangría francesa. ✓
+            Citar todos los argumentos ajenos. (Mayormente, hizo falta Cherry y algunos argumentos huérfanos por ahí)

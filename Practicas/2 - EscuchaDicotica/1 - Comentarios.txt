@@ -1,38 +1,41 @@
 Buena práctica, camaradas.
-Me parece pertinente su marco teórico, aunque creo que es un poco somero. 
+Me parece pertinente su marco teórico, aunque creo que es un poco somero. Creo que pudo ser más rico e incluir, por ejemplo, mención del efecto de la fiesta de coctel. Traten de profundizar algo más en este aspecto.
+Tengan cuidado con su redacción. Procuren que todos los integrantes del equipo lean cada sección, y no que solo la persona encargada de escribirla sea quien la lea. Así es más probable que identifiquen los errores y el texto completo se sienta más congruente.
+Me gustó su forma de describir los resultados. Creo que enfatiza bien la riqueza del estudio.
+
+La calificación de su práctica es de 9.
 
 Aquí está el desglose de la calificación:
-Las prácticas entregadas a tiempo se evalúan sobre 10. Después, se resta 1 punto de la calificación por cada día de atraso.
-✓
-Ortografía y gramática: /1 punto.
-      Redacción clara, directa y entendible. 
+
+Ortografía y gramática: .7/1 punto.
+      Redacción clara, directa y entendible. ✓
       Uso de voz pasiva. ✓
-      Oraciones completas. ✓
+      Oraciones completas. (Mayormente sí)
       Buena ortografía. (Mayormente sí)
 
-Marco teórico: /2 puntos.
-      Revisión de materiales relevantes para el tema. 
-      Orden en los argumentos, va de lo general a lo particular. 
+Marco teórico: 1.7/2 puntos.
+      Revisión de materiales relevantes para el tema. (Mayormente sí, aunque quedó un poco escueto)
+      Orden en los argumentos, va de lo general a lo particular. ✓
       Síntesis más allá de la paráfrasis y enumeración. ✓
 
 Método: 0.9/1 punto.
-      Perfecta claridad en la descripción del procedimiento. (Mayormente)
+      Perfecta claridad en la descripción del procedimiento. (Mayormente sí)
       Descripción de los materiales y sujetos. ✓
 
-Resultados: /2 puntos.
-      Presentación clara y concisa de los datos. 
-      Análisis estadísticos correctos (cuando aplique). 
-      Reporte de resultados apegado al formato APA. 
+Resultados: 2/2 puntos.
+      Presentación clara y concisa de los datos. ✓
+      Análisis estadísticos correctos (cuando aplique). (No aplica aquí)
+      Reporte de resultados apegado al formato APA. ✓
 
 Discusión: 2/2 puntos.
       Relación de los resultados con lo esperado. ✓
       Descripción de las limitaciones del estudio. ✓
       Conclusión. ✓
 
-Formato APA: /2 puntos.
+Formato APA: 1.7/2 puntos.
       Tipo de letra. ✓
       Interlineado. ✓
-      Títulos. 
-      Citas y referencias. 
-            Sangría francesa. 
-            Citar todos los argumentos ajenos. 
+      Títulos. ✓
+      Citas y referencias. ✓
+            Sangría francesa. ✓
+            Citar todos los argumentos ajenos. (Mayormente sí)
