@@ -1,36 +1,44 @@
+Buen reporte, camaradas.
+En el PDF les dejo comentarios más específicos. Aquí les dejo comentarios generales.
+
+Muy buena revisión de la literatura. Encontraron artículos muy buenos y pertinentes, y creo que sintetizaron muy bien la información.
+Su descripción del procedimiento también es muy buena y creo que cumple con el objetivo de que cualquier persona que tome su reporte pueda replicar lo que hicimos.
+Su descripción de los resultados y discusión me parece algo larga y reiterativa. En ciencia es preferible decir las cosas con pocas palabras, y describir los conceptos y procedimientos a detalle una sola vez para no tener que volver a explicarlos en cada ocasión que se mencionan. Tengan en mente este principio: un reporte no es perfecto cuando ya no hace falta añadirle nada más, sino cuando ya no le sobra nada.
+Recuerden escribir utilizando la voz pasiva, y lean varias veces sus textos antes de enviarlos para que encuentren los errores de dedo y de redacción que pueda haber.
+
+La calificación de su reporte es de 8.8. Si tienen alguna aclaración o comentario pueden escribirme por correo o comentarlo en la clase siguiente.
 
 Aquí está el desglose de la calificación:
-Las prácticas entregadas a tiempo se evalúan sobre 10. Después, se resta 1 punto de la calificación por cada día de atraso.
-✓
-Ortografía y gramática: /1 punto.
-      Redacción clara, directa y entendible. 
-      Uso de voz pasiva. 
-      Oraciones completas. 
-      Buena ortografía. 
 
-Marco teórico: /2 puntos.
-      Revisión de materiales relevantes para el tema. 
-      Orden en los argumentos, va de lo general a lo particular. 
-      Síntesis más allá de la paráfrasis y enumeración. 
+Ortografía y gramática: .8/1 punto.
+      Redacción clara, directa y entendible. ✓
+      Uso de voz pasiva.
+      Oraciones completas. (Mayormente sí)
+      Buena ortografía. ✓
 
-Método: /1 punto.
-      Perfecta claridad en la descripción del procedimiento. 
-      Descripción de los materiales y sujetos. 
+Marco teórico: 2/2 puntos.
+      Revisión de materiales relevantes para el tema. ✓
+      Orden en los argumentos, va de lo general a lo particular. ✓
+      Síntesis más allá de la paráfrasis y enumeración. ✓
 
-Resultados: /2 puntos.
-      Presentación clara y concisa de los datos. 
-      Análisis estadísticos correctos (cuando aplique). 
-      Reporte de resultados apegado al formato APA. 
+Método: 1/1 punto.
+      Perfecta claridad en la descripción del procedimiento. ✓
+      Descripción de los materiales y sujetos. ✓
 
-Discusión: /2 puntos.
-      Relación de los resultados con lo esperado. 
-      Descripción de las limitaciones del estudio. 
-      Conclusión. 
+Resultados: 1.5/2 puntos.
+      Presentación clara y concisa de los datos. (Mayormente sí)
+      Análisis estadísticos correctos (cuando aplique). (No aplica en este caso)
+      Reporte de resultados apegado al formato APA. ✓
 
-Formato APA: /2 puntos.
-      Tipo de letra. 
-      Interlineado. 
-      Títulos. 
+Discusión: 2/2 puntos.
+      Relación de los resultados con lo esperado. ✓
+      Descripción de las limitaciones del estudio. ✓
+      Conclusión. ✓
+
+Formato APA: 1.5/2 puntos.
+      Tipo de letra. ✓
+      Interlineado. ✓
+      Títulos. (Hizo falta centrarlos)
       Citas y referencias. 
-            Sangría francesa. 
-            Citar todos los argumentos ajenos. 
+            Sangría francesa. ✓
+            Citar todos los argumentos ajenos. (Mayormente sí)
