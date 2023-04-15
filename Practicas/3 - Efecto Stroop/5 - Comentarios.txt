@@ -1,36 +1,42 @@
+Buen reporte, camaradas. Lesa dejo aquí algunos comentarios generales.
 
-La calificación de su reporte es de .
+Me gusta mucho su marco teórico. Va muy bien de lo general a lo particular, y me agrada especialmente la mención que hacen de la prueba de Stroop como herramienta diagnóstica en ámbitos clínicos.
+Les recomiendo que varios miembros del equipo lean el texto completo varias veces para encontrar los pequeños errores u omisiones de redacción que puedan tener.
+Traten de citar todo aquello que no sea una idea 100% original de ustedes. Es mejor pecar de citar demasiado que de citar muy poco.
+Me agrada su reporte de los resultados y la relación que hacen entre lo esperado y lo obtenido.
+
+La calificación de su reporte es de 9.1.
 Aquí está el desglose de la calificación:
-✓
-Ortografía y gramática: /1 punto.
-      Redacción clara, directa y entendible. 
-      Uso de voz pasiva. 
-      Oraciones completas. 
-      Buena ortografía. 
 
-Marco teórico: /2 puntos.
-      Revisión de materiales relevantes para el tema. 
-      Orden en los argumentos, va de lo general a lo particular. 
-      Síntesis más allá de la paráfrasis y enumeración. 
+Ortografía y gramática: .6/1 punto.
+      Redacción clara, directa y entendible. (Mayormente sí)
+      Uso de voz pasiva. ✓
+      Oraciones completas. (Mayormente sí)
+      Buena ortografía. ✓
 
-Método: /1 punto.
-      Perfecta claridad en la descripción del procedimiento. 
-      Descripción de los materiales y sujetos. 
+Marco teórico: 2/2 puntos.
+      Revisión de materiales relevantes para el tema. ✓
+      Orden en los argumentos, va de lo general a lo particular. ✓
+      Síntesis más allá de la paráfrasis y enumeración. ✓
 
-Resultados: /2 puntos.
-      Presentación clara y concisa de los datos. 
-      Análisis estadísticos correctos (cuando aplique). 
-      Reporte de resultados apegado al formato APA. 
+Método: .8/1 punto.
+      Perfecta claridad en la descripción del procedimiento. (Mayormente sí, salvo porque no se describió la segunda condición)
+      Descripción de los materiales y sujetos. ✓
 
-Discusión: /2 puntos.
-      Relación de los resultados con lo esperado. 
-      Descripción de las limitaciones del estudio. 
-      Conclusión. 
+Resultados: 2/2 puntos.
+      Presentación clara y concisa de los datos. ✓
+      Análisis estadísticos correctos (cuando aplique). ✓
+      Reporte de resultados apegado al formato APA. ✓
 
-Formato APA: /2 puntos.
-      Tipo de letra. 
-      Interlineado. 
-      Títulos. 
+Discusión: 2/2 puntos.
+      Relación de los resultados con lo esperado. ✓
+      Descripción de las limitaciones del estudio. ✓
+      Conclusión. ✓
+
+Formato APA: 1.7/2 puntos.
+      Tipo de letra. ✓
+      Interlineado. ✓
+      Títulos. ✓
       Citas y referencias. 
-            Sangría francesa. 
-            Citar todos los argumentos ajenos. 
+            Sangría francesa. ✓
+            Citar todos los argumentos ajenos. (Hizo falta citar algunos)
