@@ -1,37 +1,42 @@
+Buen reporte, camaradas. Aquí les dejo algunos comentarios generales.
 
+Me gusta su marco teórico. Es breve y directo y no dice nada que no sea necesario.
+Recomiendo que varios miembros del equipo lean el trabajo completo varias veces antes de enviarlo para encontrar los pequeños errores de redacción que pueda haber. A veces al escribir algo nos suena muy bien, pero al releerlo vemos que no fuimos tan claros.
+Recuerden describir de forma exhaustiva los materiales y procedimiento para que cualquiera pueda replicar nuestra metodología.
+Por último, recuerden que el reporte de análisis estadísticos debe apegarse al formato APA. Sé que las capturas que pusieron tienen la misma información, pero es necesario que se habitúen a escribir y leer en formato APA. Les vendrá bien en el futuro.
 
-La calificación de su reporte es de .
+La calificación de su reporte es de 9.
 Aquí está el desglose de la calificación:
-✓
-Ortografía y gramática: /1 punto.
-      Redacción clara, directa y entendible. 
-      Uso de voz pasiva. 
-      Oraciones completas. 
-      Buena ortografía. 
 
-Marco teórico: /2 puntos.
-      Revisión de materiales relevantes para el tema. 
-      Orden en los argumentos, va de lo general a lo particular. 
-      Síntesis más allá de la paráfrasis y enumeración. 
+Ortografía y gramática: .9/1 punto.
+      Redacción clara, directa y entendible. ✓
+      Uso de voz pasiva. (Mayormente, salvo por algunas omisiones)
+      Oraciones completas. ✓
+      Buena ortografía. ✓
 
-Método: /1 punto.
-      Perfecta claridad en la descripción del procedimiento. 
-      Descripción de los materiales y sujetos. 
+Marco teórico: 2/2 puntos.
+      Revisión de materiales relevantes para el tema. ✓
+      Orden en los argumentos, va de lo general a lo particular. ✓
+      Síntesis más allá de la paráfrasis y enumeración. ✓
 
-Resultados: /2 puntos.
-      Presentación clara y concisa de los datos. 
-      Análisis estadísticos correctos (cuando aplique). 
+Método: .6/1 punto.
+      Perfecta claridad en la descripción del procedimiento. ✓
+      Descripción de los materiales y sujetos. (Hizo falta mayor claridad al describir los materiales)
+
+Resultados: 1.5/2 puntos.
+      Presentación clara y concisa de los datos. ✓
+      Análisis estadísticos correctos (cuando aplique). ✓
       Reporte de resultados apegado al formato APA. 
 
-Discusión: /2 puntos.
-      Relación de los resultados con lo esperado. 
-      Descripción de las limitaciones del estudio. 
-      Conclusión. 
+Discusión: 2/2 puntos.
+      Relación de los resultados con lo esperado. ✓
+      Descripción de las limitaciones del estudio. ✓
+      Conclusión. ✓
 
-Formato APA: /2 puntos.
-      Tipo de letra. 
-      Interlineado. 
-      Títulos. 
+Formato APA: 2/2 puntos.
+      Tipo de letra. ✓
+      Interlineado. ✓
+      Títulos. ✓
       Citas y referencias. 
-            Sangría francesa. 
-            Citar todos los argumentos ajenos. 
+            Sangría francesa. ✓
+            Citar todos los argumentos ajenos. ✓
