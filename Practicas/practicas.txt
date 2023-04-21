@@ -1,8 +1,8 @@
-Psicofísica
-Escucha dicótica
-Efecto Stroop
-Mágico número 7
-Memorias Falsas
+X Psicofísica
+X Escucha dicótica
+X Efecto Stroop
+X Mágico número 7
+X Memorias Falsas
 Heurísticos en toma de decisiones (sobrevivientes vs muertos, por ejemplo)
 Iowa Gambling Task
 Teoría de juegos
