@@ -5,4 +5,6 @@ X Mágico número 7
 X Memorias Falsas
 Heurísticos en toma de decisiones (sobrevivientes vs muertos, por ejemplo)
 Iowa Gambling Task
+Juego de los bienes públicos
+Dilema del prisionero
 Teoría de juegos
