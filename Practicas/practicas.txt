@@ -8,3 +8,5 @@ Iowa Gambling Task
 Juego de los bienes públicos
 Dilema del prisionero
 Teoría de juegos
+	Película de El hoyo
+	Hacer juego de 2/3
