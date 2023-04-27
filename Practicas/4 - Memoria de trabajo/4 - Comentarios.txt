@@ -1,37 +1,42 @@
+Excelente reporte, camaradas. Les dejo aquí comentarios generales:
 
+Me gusta muchísimo su marco teórico. Va de lo más general a lo particular sin ser demasiado extenso ni mencionar nada que sea irrelevante.
+Su descripción del procedimiento es sumamente detallada. Está perfecto así.
+Sus explicaciones propuestas para los datos encontrados son geniales también. 10/10
+Lo único que les podría corregir son algunos errores menores de redacción y puntuación. Aunque algo que me llama la atención es que tienen un valor de t muy distinto del mío. Quizá yo me equivoqué, entonces apreciaría si me muestran cómo llegaron a ese valor. Escríbanme al respecto en cuanto puedan para resolverlo.
 
-La calificación de su reporte es de .
+La calificación de su reporte está entre 9.7 y 10, dependiendo de lo que resulte de la prueba t.
 Aquí está el desglose de la calificación:
-✓
-Ortografía y gramática: /1 punto.
-      Redacción clara, directa y entendible. 
-      Uso de voz pasiva. 
-      Oraciones completas. 
-      Buena ortografía. 
 
-Marco teórico: /2 puntos.
-      Revisión de materiales relevantes para el tema. 
-      Orden en los argumentos, va de lo general a lo particular. 
-      Síntesis más allá de la paráfrasis y enumeración. 
+Ortografía y gramática: 1/1 punto.
+      Redacción clara, directa y entendible. ✓
+      Uso de voz pasiva. ✓
+      Oraciones completas. ✓
+      Buena ortografía. ✓
 
-Método: /1 punto.
-      Perfecta claridad en la descripción del procedimiento. 
-      Descripción de los materiales y sujetos. 
+Marco teórico: 2/2 puntos.
+      Revisión de materiales relevantes para el tema. ✓
+      Orden en los argumentos, va de lo general a lo particular. ✓
+      Síntesis más allá de la paráfrasis y enumeración. ✓
 
-Resultados: /2 puntos.
-      Presentación clara y concisa de los datos. 
-      Análisis estadísticos correctos (cuando aplique). 
-      Reporte de resultados apegado al formato APA. 
+Método: 1/1 punto.
+      Perfecta claridad en la descripción del procedimiento. ✓
+      Descripción de los materiales y sujetos. ✓
 
-Discusión: /2 puntos.
-      Relación de los resultados con lo esperado. 
-      Descripción de las limitaciones del estudio. 
-      Conclusión. 
+Resultados: ?/2 puntos.
+      Presentación clara y concisa de los datos. ✓
+      Análisis estadísticos correctos (cuando aplique). (Esto esta por verse, pero tengo fe en ustedes)
+      Reporte de resultados apegado al formato APA. ✓
 
-Formato APA: /2 puntos.
-      Tipo de letra. 
-      Interlineado. 
-      Títulos. 
+Discusión: 2/2 puntos. (Si pudiera les daría puntos extra por esta sección)
+      Relación de los resultados con lo esperado. ✓
+      Descripción de las limitaciones del estudio. ✓
+      Conclusión. ✓
+
+Formato APA: 2/2 puntos.
+      Tipo de letra. ✓
+      Interlineado. ✓
+      Títulos. ✓
       Citas y referencias. 
-            Sangría francesa. 
-            Citar todos los argumentos ajenos. 
+            Sangría francesa. ✓
+            Citar todos los argumentos ajenos. ✓
