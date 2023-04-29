@@ -7,6 +7,24 @@ Heurísticos en toma de decisiones (sobrevivientes vs muertos, por ejemplo)
 Iowa Gambling Task
 Juego de los bienes públicos
 Dilema del prisionero
+	Split or steal: al garantizar que elegiré steal, reduzco el espacio de resultados posibles a solo dos, y solo uno tiene algún sentido.
 Teoría de juegos
 	Película de El hoyo
 	Hacer juego de 2/3
+	21 banderas:
+		Tres conclusiones:
+			Inducción hacia atrás.
+			Estrategias correctas que solucionan el juego.
+			Se pueden aprender estrategias correctas jugando.
+	Dos tercios del promedio:
+		El prisionero que se sorprende cuando lo ejecutan.
+		Conclusiones:
+			Concepto lógico de dominancia, eliminación iterativa de estrategias dominadas, y equilibrio de Nash.
+			Acercamiento progresivo al equilibrio mediante el juego.
+			Si creemos que los otros no jugarán de acuerdo al óptimo de Nash, su elección se alejará también del óptimo.
+		Relacionar con mercado de acciones: todos quieren adivinar qué están adivinando los demás. (Mencionar Gamestop)
+	Subasta de aplausos: quien aplauda más tiempo gana algo.
+		Juego de la gallina: el primero en retirarse pierde.
+		Votación de paro: quienes querían paro se quedaron más tiempo para que solo sus votos contaran.
+	
+	Películas: The princess bride (veneno)
