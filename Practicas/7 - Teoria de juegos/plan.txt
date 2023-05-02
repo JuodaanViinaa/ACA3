@@ -1,0 +1,40 @@
+Antes de todo acordar con ellos las recompensas. ¿Dulces o calificación?
+Iniciar con ejemplo de las escondidas en mi juventud. ¿Cuántos niveles es necesario considerar para tomar la mejor decisión?
+Video de The Princess Bride.
+	Pausar antes del final. Preguntarles cuál sería la mejor estrategia para el siciliano. ¿Cuántos niveles es necesario considerar? ¿Qué hubieran hecho ustedes?
+	Mostrar el final: realmente se trataba de un juego de información asimétrica.
+Juego de los 2/3. Recompensa = Dulces o 1 punto para su equipo en una práctica.
+	Repetir la prueba varias veces.
+	¿Qué tan profundo debemos ir?
+	Eventualmente convergeremos en 0.
+	Explicar el concepto de dominancia (estrategias que son exitosas ante cualquier estrategia).
+	Eliminación iterativa de estrategias dominadas.
+	Equilibrio de Nash.
+	Explicar que el equilibrio de Nash se compone de todas las estrategias de cada agente que les dan el mejor resultado posible si los demás agentes escogen también la mejor estrategia posible para ellos mismos.
+	Si creemos que los otros no son óptimos, tampoco lo seremos.
+Ejemplo de subasta loca: quien ofrece menos, y tiene una oferta única, gana. No solo hay que tener en cuenta las reglas del juego, sino también el comportamiento de los demás agentes. En eso consiste la teoría de juegos.
+Relacionado con el mercado de acciones: todos pretenden adivinar lo que todos los demás están adivinando - GME. ¿Cuándo comprar? ¿Cuándo vender?
+
+Este tipo de razonamiento iterativo nos puede llevar a conclusiones equivocadas: Ejemplo de un prisionero que será ejecutado en algún momento antes del fin de la semana, pero le dicen que será el día que menos se lo espere. Él deduce que no lo van a ejecutar nunca. Lo ejecutan y no se lo espera.
+
+Principios distintos: Juego de los 21 frijoles.
+	Inducción hacia atrás: a veces es mejor comenzar partiendo del último paso del juego y construyendo hacia atrás.
+	Existen estrategias correctas que garantizan el éxito.
+	Las estrategias correctas se pueden aprender jugando.
+
+Juegos que son batallas de agotamiento: requieren saber cuán dispuesto esta el contrincante a continuar.
+	Subasta de aplausos.
+	Votación de paro.
+	Juego de la gallina.
+
+Pasando al dilema que vieron con Ixel: dilema del prisionero.
+	Dividir por equipos. Hacer que cada equipo decida si quiere cooperar o traicionar. Si un solo equipo traiciona, adquiere el triple de beneficio. Si todos lo hacen, nadie gana. Si todos cooperan, todos ganan un poco menos.
+	Comparar con el escenario real de un prisionero: ¿sería distinta la elección? ¿Habría menos cooperación?
+	Mostrar video de las bolas doradas: la comunicación ayuda a resolver el dilema del prisionero, pero no es una solución perfecta: aun puede haber engaño y traición.
+
+Juegos de bienes públicos.
+	Explicar con un ejemplo de ambientalismo.
+	Repartir a cada equipo 20 lentejas. Su labor es incrementar al máximo su número de lentejas.
+		En cada ronda recogeré las que quieran entregar y multiplicaré el total por 1.5. Eso lo repartiré por igual entre todos los equipos.
+		El equipo que tenga más al final es el ganador. ¿Cooperarán con su máximo o serán huraños?
+		Repetir el juego dos veces: una será anónima. La otra, todos sabrán cuánto da cada equipo. ¿Cooperarán más?
