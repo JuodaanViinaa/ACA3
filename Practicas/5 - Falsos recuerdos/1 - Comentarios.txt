@@ -1,36 +1,40 @@
+Muy buen reporte, camaradas. Aquí les dejo algunos comentarios generales.
 
-La calificación de su reporte es de .
+Su marco teórico es muy bueno, pero la mayor parte de él está parafraseado de un solo artículo. Recuerden que en estos reportes (y en general en cualquier trabajo de investigación que entreguen) el objetivo no es repetir las ideas de un autor (porque en ese caso bien podemos leer al autor original), sino hilar las ideas de distintas fuentes en una historia que queremos contar. Traten de dar más variedad a su marco teórico en el futuro.
+Por otro lado, su descripción del procedimiento es muy buena, y su sección de discusión me parece excelente. Solo encuentro algunos problemas menores de redacción. Mi consejo de siempre es que lean varias veces sus textos para detectar estas situaciones en las que repiten palabras o usan signos de puntuación de más.
+
+La calificación de su reporte es de 9.1.
 Aquí está el desglose de la calificación:
-✓
-Ortografía y gramática: /1 punto.
-      Redacción clara, directa y entendible. 
-      Uso de voz pasiva. 
-      Oraciones completas. 
-      Buena ortografía. 
 
-Marco teórico: /2 puntos.
-      Revisión de materiales relevantes para el tema. 
-      Orden en los argumentos, va de lo general a lo particular. 
+Ortografía y gramática: .9/1 punto.
+      Redacción clara, directa y entendible. ✓
+      Uso de voz pasiva. (Mayormente sí. Solo algunas omisiones)
+      Oraciones completas. ✓
+      Buena ortografía. ✓
+
+Marco teórico: 1.5/2 puntos.
+      Revisión de materiales relevantes para el tema. ✓
+      Orden en los argumentos, va de lo general a lo particular. ✓
       Síntesis más allá de la paráfrasis y enumeración. 
 
-Método: /1 punto.
-      Perfecta claridad en la descripción del procedimiento. 
-      Descripción de los materiales y sujetos. 
+Método: 1/1 punto.
+      Perfecta claridad en la descripción del procedimiento. ✓
+      Descripción de los materiales y sujetos. ✓
 
-Resultados: /2 puntos.
-      Presentación clara y concisa de los datos. 
-      Análisis estadísticos correctos (cuando aplique). 
-      Reporte de resultados apegado al formato APA. 
+Resultados: 2/2 puntos.
+      Presentación clara y concisa de los datos. ✓
+      Análisis estadísticos correctos (cuando aplique). ✓
+      Reporte de resultados apegado al formato APA. ✓
 
-Discusión: /2 puntos.
-      Relación de los resultados con lo esperado. 
-      Descripción de las limitaciones del estudio. 
-      Conclusión. 
+Discusión: 2/2 puntos.
+      Relación de los resultados con lo esperado. ✓
+      Descripción de las limitaciones del estudio. ✓
+      Conclusión. ✓
 
-Formato APA: /2 puntos.
-      Tipo de letra. 
-      Interlineado. 
-      Títulos. 
+Formato APA: 1.7/2 puntos.
+      Tipo de letra. ✓
+      Interlineado. ✓
+      Títulos. ✓
       Citas y referencias. 
-            Sangría francesa. 
-            Citar todos los argumentos ajenos. 
+            Sangría francesa. ✓
+            Citar todos los argumentos ajenos. (Varios artículos no están en sus referencias.)
