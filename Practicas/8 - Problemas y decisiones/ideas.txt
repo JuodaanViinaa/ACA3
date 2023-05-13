@@ -1,0 +1,21 @@
+Los problemas pueden dividirse en bien y mal estructurados. Los bien estructurados tienen una serie "correcta" de pasos que permite llegar a la solución. Aunque no sea una solución obvia, el algoritmo existe.
+Problemas estructurados:
+	Torre de Hanoi
+		Que resuelvan con muchos discos. ¿Identifican el algoritmo?
+		Con solo tres. ¿Lo identifican?
+	Problemas de movilidad
+		Hobbits y orcos. ¿Cómo pasar a todos de un extremo del río a otro?
+		Se suelen cometer tres errores:
+			Moverse accidentalmente hacia atrás (regresar a un estado anterior por no saber qué hacer).
+			Hacer movimientos ilegales.
+			No reconocer el siguiente movimiento legal, es decir, quedarse atorado.
+		Puedo ponerles el juego de Helltaker. Ahí se demuestran todos los principios, con la restricción adicional del número de movimientos.
+	Problema de Monty Hall.
+		¿Los humanos somos racionales y tomamos decisiones en función de la probabilidades?
+
+Mencionan que se hacen simulaciones con computadora para la solución de problemas.
+	Los humanos no pueden hacer operaciones tan precisas ni tan rápido. ¿Qué hacemos entonces? Usar heurísticos.
+	Problema del bat y la pelota. ¿Sustituimos los problemas complicados por otros más simples?
+
+Problemas mal estructurados:
+	Problema de alcanzar los plátanos y cuphead: A veces la resolución viene por "insight". Presentar video de comparación entre paloma y reportero.
