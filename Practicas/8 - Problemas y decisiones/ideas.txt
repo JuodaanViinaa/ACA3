@@ -15,7 +15,15 @@ Problemas estructurados:
 
 Mencionan que se hacen simulaciones con computadora para la solución de problemas.
 	Los humanos no pueden hacer operaciones tan precisas ni tan rápido. ¿Qué hacemos entonces? Usar heurísticos.
+	No tenemos racionalidad infinita, sino limitada. Somos racionales con ciertos límites: tenemos recursos limitados (cognitivos y de tiempo) para tomar decisiones. Por ello tomamos atajos.
 	Problema del bat y la pelota. ¿Sustituimos los problemas complicados por otros más simples?
+
+Sesgos
+	Sesgo de retrospectiva: suponemos que podríamos haber predicho un resultado una vez que ya sucedió. ¿Es realmente así? Por ejemplo, disonancia cognitiva.
+
+Falacias
+	Falacia del apostador: de una población con media de 100, aparece un sujeto con puntaje de 150. ¿Qué puntaje estiman para el siguiente sujeto?
+	Falacia del costo hundido: pensar en un ejemplo personal.
 
 Problemas mal estructurados:
 	Problema de alcanzar los plátanos y cuphead: A veces la resolución viene por "insight". Presentar video de comparación entre paloma y reportero.
