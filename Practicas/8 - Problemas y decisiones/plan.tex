@@ -1,0 +1,85 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{csquotes}
+\usepackage{anysize}
+\usepackage{graphicx}
+\marginsize{25mm}{25mm}{25mm}{25mm}
+
+\title{Plan}
+\author{}
+\date{}
+
+\begin{document}
+{\scshape\bfseries \maketitle}
+
+Los problemas pueden dividirse en bien y mal estructurados. Los bien estructurados tienen una serie ``correcta'' de pasos que permite llegar a la solución. Aunque no sea una solución obvia, el algoritmo existe.
+Para resolver problemas se pasa por un ciclo que busca llevar del estado inicial al estado meta. El ciclo implica:
+\begin{itemize}
+	\item Identificación del problema
+	\item Definición y representación del problema
+	\item Formulación de estrategias
+	\item Organización de la información
+	\item Asignación de recursos
+	\item Monitoreo
+	\item Evaluación
+\end{itemize}
+
+Problemas estructurados:
+\begin{itemize}
+	\item Torre de Hanoi
+		\begin{itemize}
+			\item Que resuelvan con muchos discos. ¿Identifican el algoritmo?
+			\item Con solo tres. ¿Lo identifican?
+		\end{itemize}
+	\item Problemas de movilidad
+		Hobbits y orcos. ¿Cómo pasar a todos de un extremo del río a otro?
+		Se suelen cometer tres errores:
+		Moverse accidentalmente hacia atrás (regresar a un estado anterior por no saber qué hacer).
+		Hacer movimientos ilegales.
+		No reconocer el siguiente movimiento legal, es decir, quedarse atorado.
+		Puedo ponerles el juego de Helltaker. Ahí se demuestran todos los principios, con la restricción adicional del número de movimientos.
+	\item Problema de Monty Hall.
+		¿Los humanos somos racionales y tomamos decisiones en función de la probabilidades?
+\end{itemize}
+
+Problemas mal estructurados:
+
+Problema de alcanzar los plátanos y cuphead: A veces la resolución viene por ``insight''. Presentar video de comparación entre paloma y reportero.
+
+Mencionan que se hacen simulaciones con computadora para la solución de problemas.
+
+Los humanos no pueden hacer operaciones tan precisas ni tan rápido. ¿Qué hacemos entonces? Usar heurísticos.
+
+No tenemos racionalidad infinita, sino limitada. Somos racionales con ciertos límites: tenemos recursos limitados (cognitivos y de tiempo) para tomar decisiones. Por ello tomamos atajos.
+
+Problema del bat y la pelota. ¿Sustituimos los problemas complicados por otros más simples?
+
+Heurísticos:
+\begin{itemize}
+	\item Satisficing: tomar lo primero que es suficientemente bueno en lugar de considerar todas las opciones. Ejemplo: elegir comida en Teikit.
+	\item Eliminación por aspectos: enfocarse en un aspecto a la vez y eliminar las alternativas que no cumplen un criterio. No ponderar todo. Ej.: elegir un auto.
+	\item Representatividad: se basa el juicio en cuán bien un ejemplo representa las características de una muestra. Ej.: media de 100, un ejemplo de 150. ¿Cuál será el siguiente ejemplo muestreado?
+		Lleva a la falacia del apostador.
+	\item Disponibilidad: cuán accesible es algo en la memoria determina nuestro juicio. Ej.: accidentes de avión y de auto.
+	\item Framing: La manera de presentar las alternativa determina la elección. Ej.: un tratamiento salva a 200/600 personas, y otro salva a todos con 33\% de probabilidad, o mata a todos con 66\% de probabilidad. Si se dice en términos de ``salvar'', eligen el tratamiento A. Si se dice en términos de ``morirán'', eligen el B. Esto sucede incluso con doctores. También aplica en sobrecargo/descuento: decir en términos de sobrecargo hace que las personas hagan lo posible por evitarlo. Decirlo en términos de descuento, no.
+\end{itemize}
+
+Sesgos
+\begin{itemize}
+	\item Correlación ilusoria: Pensar que personas de cierto grupo muestran ciertas características, y hacer caso solo a la información que lo confirma, lo que incrementa la correlación percibida.
+	\item Sesgo de retrospectiva: suponemos que podríamos haber predicho un resultado una vez que ya sucedió. ¿Es realmente así? Por ejemplo, disonancia cognitiva.
+\end{itemize}
+
+Falacias
+\begin{itemize}
+	\item Falacia del apostador: de una población con media de 100, aparece un sujeto con puntaje de 150. ¿Qué puntaje estiman para el siguiente sujeto?
+	\item Falacia del costo hundido: efecto Concorde, no retirarse de una apuesta o inversión, terminar una película mala porque ya la pagamos.
+\end{itemize}
+
+¿Los sesgos y heurísticos ayudan en algo? Sí, permiten decisiones rápidas y suficientemente buenas. Evitan los costos de oportunidad. Ej.: en un restaurante no podemos hacer un modelo matemático ponderando nuestros gustos y lo que está disponible.
+
+
+
+\end{document}

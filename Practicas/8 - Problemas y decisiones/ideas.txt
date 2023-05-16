@@ -1,4 +1,12 @@
 Los problemas pueden dividirse en bien y mal estructurados. Los bien estructurados tienen una serie "correcta" de pasos que permite llegar a la solución. Aunque no sea una solución obvia, el algoritmo existe.
+Para resolver problemas se pasa por un ciclo que busca llevar del estado inicial al estado meta. El ciclo implica:
+	Identificación del problema
+	Definición y representación del problema
+	Formulación de estrategias
+	Organización de la información
+	Asignación de recursos
+	Monitoreo
+	Evaluación
 Problemas estructurados:
 	Torre de Hanoi
 		Que resuelvan con muchos discos. ¿Identifican el algoritmo?
@@ -13,17 +21,27 @@ Problemas estructurados:
 	Problema de Monty Hall.
 		¿Los humanos somos racionales y tomamos decisiones en función de la probabilidades?
 
+Problemas mal estructurados:
+	Problema de alcanzar los plátanos y cuphead: A veces la resolución viene por "insight". Presentar video de comparación entre paloma y reportero.
+
 Mencionan que se hacen simulaciones con computadora para la solución de problemas.
 	Los humanos no pueden hacer operaciones tan precisas ni tan rápido. ¿Qué hacemos entonces? Usar heurísticos.
 	No tenemos racionalidad infinita, sino limitada. Somos racionales con ciertos límites: tenemos recursos limitados (cognitivos y de tiempo) para tomar decisiones. Por ello tomamos atajos.
 	Problema del bat y la pelota. ¿Sustituimos los problemas complicados por otros más simples?
+	Heurísticos:
+		Satisficing: tomar lo primero que es suficientemente bueno en lugar de considerar todas las opciones. Ejemplo: elegir comida en Teikit.
+		Eliminación por aspectos: enfocarse en un aspecto a la vez y eliminar las alternativas que no cumplen un criterio. No ponderar todo. Ej.: elegir un auto.
+		Representatividad: se basa el juicio en cuán bien un ejemplo representa las características de una muestra. Ej.: media de 100, un ejemplo de 150. ¿Cuál será el siguiente ejemplo muestreado?
+			Lleva a la falacia del apostador.
+		Disponibilidad: cuán accesible es algo en la memoria determina nuestro juicio. Ej.: accidentes de avión y de auto.
+		Framing: La manera de presentar las alternativa determina la elección. Ej.: un tratamiento salva a 200/600 personas, y otro salva a todos con 33% de probabilidad, o mata a todos con 66% de probabilidad. Si se dice en términos de "salvar", eligen el tratamiento A. Si se dice en términos de "morirán", eligen el B. Esto sucede incluso con doctores. También aplica en sobrecargo/descuento: decir en términos de sobrecargo hace que las personas hagan lo posible por evitarlo. Decirlo en términos de descuento, no.
 
 Sesgos
+	Correlación ilusoria: Pensar que personas de cierto grupo muestran ciertas características, y hacer caso solo a la información que lo confirma, lo que incrementa la correlación percibida.
 	Sesgo de retrospectiva: suponemos que podríamos haber predicho un resultado una vez que ya sucedió. ¿Es realmente así? Por ejemplo, disonancia cognitiva.
 
 Falacias
 	Falacia del apostador: de una población con media de 100, aparece un sujeto con puntaje de 150. ¿Qué puntaje estiman para el siguiente sujeto?
-	Falacia del costo hundido: pensar en un ejemplo personal.
+	Falacia del costo hundido: efecto Concorde, no retirarse de una apuesta o inversión, terminar una película mala porque ya la pagamos.
 
-Problemas mal estructurados:
-	Problema de alcanzar los plátanos y cuphead: A veces la resolución viene por "insight". Presentar video de comparación entre paloma y reportero.
+¿Los sesgos y heurísticos ayudan en algo? Sí, permiten decisiones rápidas y suficientemente buenas. Evitan los costos de oportunidad. Ej.: en un restaurante no podemos hacer un modelo matemático ponderando nuestros gustos y lo que está disponible.
