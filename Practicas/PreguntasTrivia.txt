@@ -1,0 +1,3 @@
+Describan el teorema central del límite.
+Describan una prueba t: qué evalúa, y especialmente qué relación tiene con el teorema central del límite.
+
