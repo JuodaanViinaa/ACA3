@@ -1,3 +1,11 @@
 Describan el teorema central del límite.
+Describir las medidas de dispersión: varianza y desviación. ¿Por qué utilizamos la diferencia al cuadrado?
 Describan una prueba t: qué evalúa, y especialmente qué relación tiene con el teorema central del límite.
+Diferencia entre desviación estándar y error estándar de la media.
+Explicar la ley de Fechner y la fracción de Weber.
+Explicación del teorema de Bayes y su relación con la percepción visual.
+¿Cómo se estudia la atención en las palomas? Describir el procedimiento.
+De acuerdo con el modelo visto en clase, ¿qué implicación tiene el entrenamiento intercalado en la estabilización de memorias en la corteza cerebral?
+¿Cómo se estudia la formación de conceptos en las palomas?
+
 
