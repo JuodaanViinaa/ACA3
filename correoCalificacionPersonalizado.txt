@@ -1,0 +1,19 @@
+Saludos, camarada.
+Aquí están tus calificaciones del semestre. Dime si tienes alguna duda o comentario:
+
+Práctica:
+	Psicofísica: 8.6
+	Escucha dicótica: 9
+	Efecto Stroop: 9.5
+	Mágico número 7: 9.7
+	Falsos recuerdos: 9.1
+	Memoria y categorización: 
+	Teoría de juegos: 
+
+Promedio de las 4 prácticas más altas:
+
+Todo el salón tuvo +.5 en una practica por el juego de las 21 banderas, lo que se traduce en +.125 en calificación final.
+Tu equipo además tuvo +1 en otra práctica por otra actividad de teoría de juegos.
+Finalmente, por colaborar el día de la trivia de la última clase ganaste también +.45 en calificación final.
+
+Tu calificación final es de 
